@@ -80,10 +80,10 @@ displayNotes();
 clear.addEventListener("click",()=>{
   notesContainer.classList.add("notes-vanishing");
 setTimeout(() => {
-        localStorage.clear(); // लोकल स्टोरेज से नोट्स साफ़ करें
-        displayNotes(); // UI को अपडेट करें (जो अब "No Notes are saved" संदेश दिखाएगा)
-        notesContainer.classList.remove("notes-vanishing"); // वैनिश क्लास हटा दें ताकि अगली बार नोट्स दिखने पर यह सामान्य हो
-    }, 500); // ट्रांज़िशन की अवधि से मेल खाने के लिए यह टाइमआउट 500ms (0.5s) होना चाहिए
+        localStorage.clear(); 
+        displayNotes();
+        notesContainer.classList.remove("notes-vanishing");
+    }, 500); 
 });
 
 
