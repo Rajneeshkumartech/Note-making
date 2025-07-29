@@ -111,7 +111,7 @@ input:focus {
   flex-grow: 1;
   min-width: 120px;
   max-width: 160px;
-
+  margin: 0.2rem;
 }
 
 .submitstyle button:hover {
